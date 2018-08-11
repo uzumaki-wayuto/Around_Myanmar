@@ -1,0 +1,36 @@
+body{
+  position: relative;
+}
+.affix{
+  top: 2vh;
+  z-index: 9999 !important;
+}
+div.col-sm-9 div {
+      height: 50vh;
+      font-size: 28px;
+  }
+  @media screen and (max-width: 810px) {
+
+    #yangon, #mandalay, #tanintharyi, #magway, #sagaing,#ayeyarwady,#bago, #kachin,#kayin,#kayah,#chin,#mon,#rakhine,#shan,#thankyou {
+        padding-top: 0px;
+        margin-left: 150px;
+    }
+    div.col-sm-9 div{
+      margin-top:0px;
+
+    }
+  }
+#yangon{background-color: #1E88E5;color:#fff;}
+#mandalay{background-color: #673ab7;color:#fff;}
+#tanintharyi{background-color: #ff9800;color:#fff;}
+#magway{background-color: #ff8900;color:#fff;}
+#sagaing{background-color: #00bcd4;color:#fff;}
+#ayeyarwady{background-color: #009688;color:#fff;}
+#bago{background-color: #1E88E5;color:#fff;}
+#kachin{background-color: #1E88E5;color:#fff;}
+#kayah{background-color: #673ab7;color:#fff;}
+#kayin{background-color: #ff9800;color:#fff;}
+#chin{background-color: #ff8900;color:#fff;}
+#mon{background-color: #00bcd4;color:#fff;}
+#rakhine{background-color: #009688;color:#fff;}
+#shan{background-color: #1E88E5;color:#fff;}

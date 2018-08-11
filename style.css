@@ -1,0 +1,98 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-size: 120%;
+  background: #f8f8ff;
+}
+.header {
+  width: 25%;
+  margin: 25px auto 0px;
+  color: white;
+  background: #5f9ea0;
+  text-align: left;
+  border: 1px solid #b0c4de;
+  border-bottom: none;
+  border-radius: 10px 10px 5px 5px;
+  padding: 15px;
+}
+form, .content{
+  width: 25%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #b0c4de;
+  background: white;
+  background-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 5px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin:  3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background: white;
+  color: black;
+}
+.btn {
+  margin: 5px 0px 5px 0px;
+  padding: 10px 5px 10px 5px;
+  font-size: 15px;
+  width: 20%;
+  color: white;
+  background: #5f9ea0;
+  border: none;
+  border-radius: 5px;
+}
+.btn.hover{
+  background: purple;
+}
+.faq {
+  font-size: 15px;
+}
+.error{
+  font-size: 15px;
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.error i, p.logout a, p.next a{
+  color: red;
+}
+.success{
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+p.next {
+  float: right;
+  margin: -40px 0px 0px auto;
+}
+p.logout, p.next {
+  font-size: 17px;
+  padding: 10px 0px 10px 0px;
+}
+a:hover{
+  color:purple;
+}
+a:visited{
+  color:green;
+}
+a{
+  text-decoration: none;
+}
